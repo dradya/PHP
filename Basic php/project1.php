@@ -50,27 +50,60 @@
   echo $o;
   echo"\n";
   
-  echo" Bitwise Operators";
-  echo"\n";
-  $p=$a&$b;
-  echo $p;
-  echo"\n";
-  $q=$a|$b;
-  echo $q;
-  echo"\n";
-  $r=$a^$b;
-  echo $r;
-  echo"\n";
-  $s=$a>>$b;
-  echo $s;
-  echo"\n";
-  $t=$a<<$b;
-  echo $t;
-  echo"\n";
-  $u=~$a;
-  echo $u;
-  echo"\n";
-  $v=~$b;
-  echo $v;
-  echo"\n";
-  ?>
+  echo"bitwise OPERATORS";
+	// Bitwise AND 
+	$answer = $a & $b; 
+	echo $answer; 
+	
+	echo("\n"); 
+	
+	// Bitwise OR 
+	$answer = $a | $b; 
+	echo$answer; 
+	
+	echo("\n"); 
+	
+	// Bitwise XOR 
+	$answer = $a ^ $b; 
+	echo$answer; 
+	
+	echo("\n"); 
+	
+	// Bitwise NOT 
+	$answer = ~$a; 
+	echo$answer; 
+	
+	echo("\n"); 
+	
+	// Bitwise Left shift 
+	$b = 1; 
+	$answer = $a << $b; 
+	echo$answer; 
+	
+	echo("\n"); 
+	
+	// Bitwise Right shift 
+	$answer = $a >> $b; 
+	echo$answer; 
+	
+	echo("\n"); 
+
+   echo"string OPERATORS";
+   echo ("\n");
+   $xy="Hello";
+   $yx=" ";
+   $yz="PHP";
+   $str=$xy . $yx . $yz;
+   echo $str;
+   echo ("\n");
+   echo ("\n");
+
+   echo"increment and decrement OPERATORS";
+   echo ("\n");
+    $a++;
+    $b--;
+    echo $a;
+    echo ("\n");
+    echo $b;
+    ?>
+    
