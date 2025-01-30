@@ -1,33 +1,34 @@
 <?php
-$a=3;
-$b=2;
+$a=5;
+$b=8;
 if($a%2==0 and $b%2==0)
 {
 $product=$a*$b;
 echo ("Both the numbers are even");
 echo("\n");
-echo $product;
+echo ("$a*$b=$product");
 }
-else
-    if($a%2!=0 and $b%2!=0)
+elseif($a%2!=0 and $b%2!=0)
     {
     $div=$a/$b;
-    echo ("a is odd, b is even");
+    echo ("both numbers are odd");
     echo("\n");
-    echo $div;
+    echo ("$a/$b=$div");
     }
-else
-    if($a%2==0 and $b%2!=0)
+elseif($a%2==0 and $b%2!=0)
     {
     $add=$a+$b;
     echo ("a is even, b is odd");
     echo("\n");
-    echo $add;
+    echo ("$a+$b=$add");
     }
 
 else
+{
     $sub=$a-$b;
-    echo ("both the numbers are odd");
+    echo ("a is odd, b is even");
     echo("\n");
-    echo $sub;
+    echo ("$a-$b=$sub");
+}
 ?>
+

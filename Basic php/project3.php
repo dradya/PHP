@@ -1,7 +1,7 @@
 <?php
 $temp=22;
 if($temp<20)
-echo("It is cold outside");
+echo ("It is cold outside");
 
 else
 { if($temp>=20 and $temp<27)
@@ -11,3 +11,4 @@ else
 echo("it is warm");
 }
 ?>
+
